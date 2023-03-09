@@ -1,0 +1,32 @@
+<main>
+    <div class="container mb-5 mt-5">
+        <div class="row">
+            <div class="col-lg-6 m-auto">
+                <form method="POST" action="">
+                    <div class="mb-3">
+                        <label class="form-label">Naam</label>
+                        <input type="text" class="form-control" id="naam" name="naam" value="<?php echo $restaurant_naam; ?>">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Adres</label>
+                        <input type="text" class="form-control" id="adres" name="adres" value="<?php echo $restaurant_adres; ?>">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" value="<?php echo $restaurant_email; ?>">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Telefoon</label>
+                        <input type="text" class="form-control" id="telefoon" name="telefoon" value="<?php echo $restaurant_telefoon; ?>">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Coordinaten</label>
+                        <input type="text" class="form-control" id="coordinaten" name="coordinaten" value="<?php echo $restaurant_coordinaten; ?>">
+                    </div>
+                    <button type="submit" name="update" class="btn btn-primary mb-2">Update</button>
+                    <button type="submit" name="cancel" class="btn btn-primary mb-2">Annuleer</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
